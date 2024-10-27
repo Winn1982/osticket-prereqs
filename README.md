@@ -100,3 +100,18 @@ I am then going to try and go to the actual os Ticket website.
 
 I successfully browsed to osTicket and opened the browser to osTicket. 
 
+![image](https://github.com/user-attachments/assets/8b991a79-44d9-40f3-9306-1ec5f8cf51e0)
+
+I am  now going to enable some extensions that are not enabled yet, they are php_imap.dll,  php_intl.dll, and php_opcache.dll
+
+![image](https://github.com/user-attachments/assets/c4d53009-4485-4c5f-8430-1944eec1b22a)
+
+To ensure the extensions were enabled we refreshed the webpage and see the green checkmarks on some red extensions. 
+
+![image](https://github.com/user-attachments/assets/bc42466b-f24b-49d9-8d29-6981b3ab80af)
+![image](https://github.com/user-attachments/assets/8dc8b6c3-b167-414a-882e-568e4a92b78f)
+
+I renamed "ost-sampleconfig" to "ost-config" and disabled inheritance and removed all and then clicked new permissions and enabled everyone and gave them full access (this would not happen in real life, but is just for the lab's purpose). 
+
+
+
