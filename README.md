@@ -111,7 +111,28 @@ To ensure the extensions were enabled we refreshed the webpage and see the green
 ![image](https://github.com/user-attachments/assets/bc42466b-f24b-49d9-8d29-6981b3ab80af)
 ![image](https://github.com/user-attachments/assets/8dc8b6c3-b167-414a-882e-568e4a92b78f)
 
-I renamed "ost-sampleconfig" to "ost-config" and disabled inheritance and removed all and then clicked new permissions and enabled everyone and gave them full access (this would not happen in real life, but is just for the lab's purpose). 
+I renamed "ost-sampleconfig" to "ost-config" and disabled inheritance and removed all and then clicked new permissions and enabled everyone and gave them full access (this would not happen in real life, but is just for the lab's purpose). I will then stop and start the IIS server.
 
+![image](https://github.com/user-attachments/assets/ec48d080-9188-4dd5-a909-0d9065e632eb)
 
+I am going to install Heidi SQL.
 
+![image](https://github.com/user-attachments/assets/b3d1dd01-d7be-4c77-a33d-f1cd69cc7093)
+
+I am going to create a new database called "osTicket".
+
+![image](https://github.com/user-attachments/assets/511670c6-ec37-4e6d-b2da-b8c32cc1c094)
+
+Now that I have Heidi SQL setup, we are going to continue the installation process for osTicket. 
+
+![image](https://github.com/user-attachments/assets/db476c65-56f3-44cf-a899-149e7ddbfd04)
+
+I see that it was successful in installing osTicket. 
+
+![image](https://github.com/user-attachments/assets/ed66bbc8-1965-45b9-8c90-062b50d4f40d)
+
+This is the admin user login page. 
+
+![image](https://github.com/user-attachments/assets/e3eed21a-c7de-422a-8012-4da6f801910a)
+
+This is the login page where we will be "creating tickets" to work on. 
