@@ -24,6 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Enable IIS with CGI
 - Install VC Redistributable 
 - Install MySQL
+- Install osTicket
 
 <h2>Installation Steps</h2>
 
@@ -35,7 +36,7 @@ I created a Windows 10 Pro Virtual Machine named "os-Ticketvm". I will be using 
 
 ![image](https://github.com/user-attachments/assets/7a449eb7-75aa-4609-8975-838f48696486)
 
-I downloaded os Ticket to the desktop on the Windows 10 virtual machine. 
+I downloaded osTicket to the desktop on the Windows 10 virtual machine. 
 </p>
 <br />
 
@@ -67,4 +68,35 @@ I then created a new folder on the C: Drive called "PHP".
 
 I will then extract the PHP 7.3.8 NTS folder to the PHP folder that was just created. 
 
+![image](https://github.com/user-attachments/assets/5ff93a8b-16a7-418a-9784-6527f9b62528)
+
+I checked the C:PHP folder created to ensure the files were extracted properly. 
+
+![image](https://github.com/user-attachments/assets/ec320927-549e-4e33-a8f7-d423ac1d6e50)
+
+Next, we will install the VC_redistributable file from the os Ticket installation folder. 
+
+![image](https://github.com/user-attachments/assets/65ec1e55-628e-4c16-af5b-9c7515f3e5bb)
+
+I will install the MySQL 5.5 file from the os Ticket installation file. 
+
+![image](https://github.com/user-attachments/assets/8660bf3e-d800-435d-907f-d38a928687a7)
+
+I am now going to register PHP from IIS. This will make the web server aware of the computer's PHP presence. To do this we will stop and restart the server. 
+
+![image](https://github.com/user-attachments/assets/b2f2394f-f13f-4abd-ae14-3ecf5e09454f)
+
+I then extracted osTicket to our os Ticket installation folder. 
+
+![image](https://github.com/user-attachments/assets/38538cec-bc89-4c82-93a1-5cc2ad2c5ba9)
+
+I am going to copy the upload folder into inetpub and then change the name of upload to "os ticket". 
+
+![image](https://github.com/user-attachments/assets/3a862144-413b-45ea-b989-704fe3b24db8)
+
+I am then going to try and go to the actual os Ticket website.
+
+![image](https://github.com/user-attachments/assets/b51e7a5f-9538-42fa-8689-eeb2a617c48d)
+
+I successfully browsed to osTicket and opened the browser to osTicket. 
 
